@@ -1,0 +1,27 @@
+{
+    "name": "atomify-test",
+    "version": "0.0.0",
+    "license": "AVQ",
+    "scripts": {
+        "serve": "node node_modules/atomify/bin/atomify"
+    },
+    "dependencies": {
+        "angular-bsfy": "^1.2.17-4",
+        "atomify": "^3.1.3",
+        "bootstrap": "^3.2.0",
+        "handlebars": "^1.3.0",
+        "hbsfy": "^1.3.2"
+    },
+    "devDependencies": {},
+    "atomify": {
+        "server": {
+            "open": true,
+            "path": "index.html",
+            "lr": {
+                "sync": true
+            }
+        },
+        "js": "app/main.js:app.js",
+        "css": "app/main.css:app.css"
+    }
+}
